@@ -1,0 +1,46 @@
+{
+  "price_base": 14,
+  "price_per_size": 5,
+  "dough": [
+    { "type": "Classic", "price": 0 },
+    { "type": "Gluten Free", "price": 2 },
+    { "type": "Whole Grain", "price": 2.5 }
+  ],
+  "base": [
+    {
+      "type": "Classic",
+      "detail": "Tomato sauce, Mozzarella, Oregano",
+      "price": 0
+    },
+    {
+      "type": "Bianca",
+      "detail": "Sour cream, Mozzarella, Oregano",
+      "price": 2
+    },
+    {
+      "type": "Zucchini",
+      "detail": "Zucchini sauce, Mozzarella, Oregano",
+      "price": 2.5
+    }
+  ],
+  "ingredients": [
+    { "type": "Fior di latte", "price": 2 },
+    { "type": "Mozzarella di bufalla", "price": 3 },
+    { "type": "Gorgonzola", "price": 2.5 },
+    { "type": "Mascarpone", "price": 2.5 },
+    { "type": "Basil", "price": 1 },
+    { "type": "Artichokes", "price": 2 },
+    { "type": "Spinach", "price": 2 },
+    { "type": "Onions", "price": 1 },
+    { "type": "Olives", "price": 1.5 },
+    { "type": "Capers", "price": 1 },
+    { "type": "Mushrooms", "price": 2 },
+    { "type": "Ham", "price": 4 },
+    { "type": "Salami", "price": 3.5 },
+    { "type": "Salami picante", "price": 3.5 },
+    { "type": "Salciccia", "price": 3.5 },
+    { "type": "Bacon", "price": 3 },
+    { "type": "Anchovies", "price": 2.5 },
+    { "type": "Tuna", "price": 3.5 }
+  ]
+}
