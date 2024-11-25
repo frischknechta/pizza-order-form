@@ -41,6 +41,21 @@ function Form() {
     }, 10 * 1000);
   }
 
+  function emptyForm() {
+    setFirstName("");
+    setLastName("");
+    setStreet("");
+    setCity("");
+    setPostCode("");
+    setEmail("");
+    setPhone("");
+    setMessage("");
+    setPizzaSize(30);
+    setPizzaDough("Classic");
+    setPizzaBase("Classic");
+    setPizzaIngredients([]);
+  }
+
   function handleSubmit(event) {
     event.preventDefault();
     setStatus("loading");
@@ -73,6 +88,7 @@ function Form() {
           console.log("SUCCESS!");
           setStatus("success");
           reinitStatus();
+          emptyForm();
         },
         (error) => {
           console.log("FAILED...", error.text);
